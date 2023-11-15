@@ -4,4 +4,4 @@
   This is a little test for projects <br>
 </p>
 
-<a href="https://www.instagram.com/mmapro12/"><button type="button">My Instagram<a>
+<a href="https://www.instagram.com/mmapro12/">My Instagram<a>
