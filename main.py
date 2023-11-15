@@ -1,18 +1,12 @@
-from time import time
+names = ["ali", "faruk", "osama"]
+grades = [100, 50, 75]
 
-def speedTest(func):
-    def wrapper():
-        start = time()
-        func()
-        end = time()
+connect = zip(names, grades)
 
-        print(f"Function time: {end-start}")
-    
-    return wrapper
+info = {}
 
+for student in connect:
+    info[student[0]] = student[1]
 
-@speedTest
-def func():
-    print("Hello every one como estas?")
-
-func()
+for key, value in info.items():
+    print(f"{key}: {value}")
