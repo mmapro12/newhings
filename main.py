@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 names = ["ali", "faruk", "osama"]
 grades = [100, 50, 75]
+=======
+print("This is Ali Version but updated")
+>>>>>>> ali.v
 
 connect = zip(names, grades)
 
